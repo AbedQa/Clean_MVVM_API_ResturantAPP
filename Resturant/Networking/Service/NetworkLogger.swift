@@ -2,8 +2,6 @@
 //  NetworkLogger.swift
 //  NetworkLayer
 //
-//  Created by Malcolm Kumwenda on 2018/03/11.
-//  Copyright © 2018 Malcolm Kumwenda. All rights reserved.
 //
 
 import Foundation
