@@ -15,6 +15,20 @@
 		2DAA18A12529003600546E9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DAA189F2529003600546E9E /* LaunchScreen.storyboard */; };
 		2DAA18AC2529003600546E9E /* ResturantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA18AB2529003600546E9E /* ResturantTests.swift */; };
 		2DAA18B72529003600546E9E /* ResturantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA18B62529003600546E9E /* ResturantUITests.swift */; };
+		2DAA18D72529005000546E9E /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA18C92529005000546E9E /* ParameterEncoding.swift */; };
+		2DAA18D82529005000546E9E /* URLParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA18CA2529005000546E9E /* URLParameterEncoding.swift */; };
+		2DAA18D92529005000546E9E /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA18CB2529005000546E9E /* JSONParameterEncoder.swift */; };
+		2DAA18DA2529005000546E9E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA18CD2529005000546E9E /* NetworkManager.swift */; };
+		2DAA18DB2529005000546E9E /* ResturantsEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA18CF2529005000546E9E /* ResturantsEndPoint.swift */; };
+		2DAA18DD2529005000546E9E /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA18D22529005000546E9E /* HTTPTask.swift */; };
+		2DAA18DE2529005000546E9E /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA18D32529005000546E9E /* HTTPMethod.swift */; };
+		2DAA18DF2529005000546E9E /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA18D42529005000546E9E /* Router.swift */; };
+		2DAA18E02529005000546E9E /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA18D52529005000546E9E /* NetworkLogger.swift */; };
+		2DAA18E12529005000546E9E /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA18D62529005000546E9E /* EndPointType.swift */; };
+		2DAA18ED2529019200546E9E /* ResturantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA18EC2529019200546E9E /* ResturantViewModel.swift */; };
+		2DAA18F62529025400546E9E /* Resturnat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA18F52529025400546E9E /* Resturnat.swift */; };
+		2DAA18FE252904BC00546E9E /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA18FD252904BC00546E9E /* State.swift */; };
+		2DAA19032529069500546E9E /* Cities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA19022529069500546E9E /* Cities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +63,20 @@
 		2DAA18B22529003600546E9E /* ResturantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResturantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DAA18B62529003600546E9E /* ResturantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantUITests.swift; sourceTree = "<group>"; };
 		2DAA18B82529003600546E9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DAA18C92529005000546E9E /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		2DAA18CA2529005000546E9E /* URLParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLParameterEncoding.swift; sourceTree = "<group>"; };
+		2DAA18CB2529005000546E9E /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		2DAA18CD2529005000546E9E /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2DAA18CF2529005000546E9E /* ResturantsEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResturantsEndPoint.swift; sourceTree = "<group>"; };
+		2DAA18D22529005000546E9E /* HTTPTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		2DAA18D32529005000546E9E /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		2DAA18D42529005000546E9E /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		2DAA18D52529005000546E9E /* NetworkLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		2DAA18D62529005000546E9E /* EndPointType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		2DAA18EC2529019200546E9E /* ResturantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantViewModel.swift; sourceTree = "<group>"; };
+		2DAA18F52529025400546E9E /* Resturnat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resturnat.swift; sourceTree = "<group>"; };
+		2DAA18FD252904BC00546E9E /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		2DAA19022529069500546E9E /* Cities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +127,9 @@
 		2DAA18932529003400546E9E /* Resturant */ = {
 			isa = PBXGroup;
 			children = (
+				2DAA18F42529024800546E9E /* Model */,
+				2DAA18EB2529018000546E9E /* ViewModel */,
+				2DAA18C72529005000546E9E /* Networking */,
 				2DAA18942529003400546E9E /* AppDelegate.swift */,
 				2DAA18962529003400546E9E /* SceneDelegate.swift */,
 				2DAA18982529003400546E9E /* ViewController.swift */,
@@ -126,6 +157,73 @@
 				2DAA18B82529003600546E9E /* Info.plist */,
 			);
 			path = ResturantUITests;
+			sourceTree = "<group>";
+		};
+		2DAA18C72529005000546E9E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2DAA18C82529005000546E9E /* Encoding */,
+				2DAA18CC2529005000546E9E /* Manager */,
+				2DAA18CE2529005000546E9E /* EndPoint */,
+				2DAA18D02529005000546E9E /* Service */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2DAA18C82529005000546E9E /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				2DAA18C92529005000546E9E /* ParameterEncoding.swift */,
+				2DAA18CA2529005000546E9E /* URLParameterEncoding.swift */,
+				2DAA18CB2529005000546E9E /* JSONParameterEncoder.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		2DAA18CC2529005000546E9E /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				2DAA18CD2529005000546E9E /* NetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		2DAA18CE2529005000546E9E /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				2DAA18CF2529005000546E9E /* ResturantsEndPoint.swift */,
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
+		2DAA18D02529005000546E9E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2DAA18D22529005000546E9E /* HTTPTask.swift */,
+				2DAA18D32529005000546E9E /* HTTPMethod.swift */,
+				2DAA18D42529005000546E9E /* Router.swift */,
+				2DAA18D52529005000546E9E /* NetworkLogger.swift */,
+				2DAA18D62529005000546E9E /* EndPointType.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2DAA18EB2529018000546E9E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2DAA18EC2529019200546E9E /* ResturantViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2DAA18F42529024800546E9E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2DAA18F52529025400546E9E /* Resturnat.swift */,
+				2DAA18FD252904BC00546E9E /* State.swift */,
+				2DAA19022529069500546E9E /* Cities.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +358,21 @@
 			files = (
 				2DAA18992529003400546E9E /* ViewController.swift in Sources */,
 				2DAA18952529003400546E9E /* AppDelegate.swift in Sources */,
+				2DAA18D92529005000546E9E /* JSONParameterEncoder.swift in Sources */,
+				2DAA19032529069500546E9E /* Cities.swift in Sources */,
+				2DAA18DE2529005000546E9E /* HTTPMethod.swift in Sources */,
+				2DAA18DF2529005000546E9E /* Router.swift in Sources */,
+				2DAA18E02529005000546E9E /* NetworkLogger.swift in Sources */,
+				2DAA18E12529005000546E9E /* EndPointType.swift in Sources */,
+				2DAA18FE252904BC00546E9E /* State.swift in Sources */,
+				2DAA18DA2529005000546E9E /* NetworkManager.swift in Sources */,
+				2DAA18F62529025400546E9E /* Resturnat.swift in Sources */,
+				2DAA18D72529005000546E9E /* ParameterEncoding.swift in Sources */,
 				2DAA18972529003400546E9E /* SceneDelegate.swift in Sources */,
+				2DAA18DD2529005000546E9E /* HTTPTask.swift in Sources */,
+				2DAA18ED2529019200546E9E /* ResturantViewModel.swift in Sources */,
+				2DAA18D82529005000546E9E /* URLParameterEncoding.swift in Sources */,
+				2DAA18DB2529005000546E9E /* ResturantsEndPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +550,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Resturant/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,7 +558,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ios.Resturant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -456,6 +569,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Resturant/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,7 +577,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ios.Resturant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
