@@ -43,7 +43,7 @@ extension ResturantApi: EndPointType {
             return "cities"
         case .restaurantItem(let id):
             return "restaurants/\(id)"
-        case .restaurants(let _,let _ ):
+        case .restaurants( _, _ ):
             return "restaurants"
         }
     }

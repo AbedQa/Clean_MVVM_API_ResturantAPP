@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D51D98B253177630089E003 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D51D98A253177630089E003 /* KeychainService.swift */; };
+		2D51D99425317AC40089E003 /* UIFontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D51D99325317AC40089E003 /* UIFontManager.swift */; };
+		2D51D99C25317B4F0089E003 /* ValidationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D51D99B25317B4F0089E003 /* ValidationManager.swift */; };
 		2DAA18952529003400546E9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA18942529003400546E9E /* AppDelegate.swift */; };
 		2DAA18972529003400546E9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA18962529003400546E9E /* SceneDelegate.swift */; };
 		2DAA18992529003400546E9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA18982529003400546E9E /* ViewController.swift */; };
@@ -29,6 +32,15 @@
 		2DAA18F62529025400546E9E /* Resturnat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA18F52529025400546E9E /* Resturnat.swift */; };
 		2DAA18FE252904BC00546E9E /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA18FD252904BC00546E9E /* State.swift */; };
 		2DAA19032529069500546E9E /* Cities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA19022529069500546E9E /* Cities.swift */; };
+		2DEFC1342531821B00FE3052 /* UIView+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEFC1332531821B00FE3052 /* UIView+Ex.swift */; };
+		2DEFC1392531828E00FE3052 /* UITableView+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEFC1382531828E00FE3052 /* UITableView+Ex.swift */; };
+		2DEFC144253182B500FE3052 /* ClassNameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEFC143253182B500FE3052 /* ClassNameProtocol.swift */; };
+		2DEFC149253182E100FE3052 /* UICollectionView+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEFC148253182E100FE3052 /* UICollectionView+Ex.swift */; };
+		2DEFC14E2531832900FE3052 /* StoryboardInstantiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEFC14D2531832900FE3052 /* StoryboardInstantiatable.swift */; };
+		2DEFC1532531836A00FE3052 /* UIApplication+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEFC1522531836A00FE3052 /* UIApplication+Ex.swift */; };
+		2DEFC1582531839500FE3052 /* UIColor+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEFC1572531839500FE3052 /* UIColor+Ex.swift */; };
+		2DEFC15D253183C900FE3052 /* String+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEFC15C253183C900FE3052 /* String+Ex.swift */; };
+		2DEFC162253185C400FE3052 /* UITextField+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEFC161253185C400FE3052 /* UITextField+Ex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D51D98A253177630089E003 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		2D51D99325317AC40089E003 /* UIFontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontManager.swift; sourceTree = "<group>"; };
+		2D51D99B25317B4F0089E003 /* ValidationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationManager.swift; sourceTree = "<group>"; };
 		2DAA18912529003400546E9E /* Resturant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Resturant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DAA18942529003400546E9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DAA18962529003400546E9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +92,15 @@
 		2DAA18F52529025400546E9E /* Resturnat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resturnat.swift; sourceTree = "<group>"; };
 		2DAA18FD252904BC00546E9E /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		2DAA19022529069500546E9E /* Cities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cities.swift; sourceTree = "<group>"; };
+		2DEFC1332531821B00FE3052 /* UIView+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ex.swift"; sourceTree = "<group>"; };
+		2DEFC1382531828E00FE3052 /* UITableView+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ex.swift"; sourceTree = "<group>"; };
+		2DEFC143253182B500FE3052 /* ClassNameProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassNameProtocol.swift; sourceTree = "<group>"; };
+		2DEFC148253182E100FE3052 /* UICollectionView+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Ex.swift"; sourceTree = "<group>"; };
+		2DEFC14D2531832900FE3052 /* StoryboardInstantiatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiatable.swift; sourceTree = "<group>"; };
+		2DEFC1522531836A00FE3052 /* UIApplication+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Ex.swift"; sourceTree = "<group>"; };
+		2DEFC1572531839500FE3052 /* UIColor+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ex.swift"; sourceTree = "<group>"; };
+		2DEFC15C253183C900FE3052 /* String+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ex.swift"; sourceTree = "<group>"; };
+		2DEFC161253185C400FE3052 /* UITextField+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Ex.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +128,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D51D9892531725E0089E003 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				2D51D98A253177630089E003 /* KeychainService.swift */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		2D51D99225317AB50089E003 /* Utile */ = {
+			isa = PBXGroup;
+			children = (
+				2D51D99325317AC40089E003 /* UIFontManager.swift */,
+				2D51D99B25317B4F0089E003 /* ValidationManager.swift */,
+			);
+			path = Utile;
+			sourceTree = "<group>";
+		};
 		2DAA18882529003400546E9E = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +168,9 @@
 		2DAA18932529003400546E9E /* Resturant */ = {
 			isa = PBXGroup;
 			children = (
+				2DEFC1322531808000FE3052 /* Extensions */,
+				2D51D99225317AB50089E003 /* Utile */,
+				2D51D9892531725E0089E003 /* Security */,
 				2DAA18F42529024800546E9E /* Model */,
 				2DAA18EB2529018000546E9E /* ViewModel */,
 				2DAA18C72529005000546E9E /* Networking */,
@@ -224,6 +268,22 @@
 				2DAA19022529069500546E9E /* Cities.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		2DEFC1322531808000FE3052 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2DEFC1332531821B00FE3052 /* UIView+Ex.swift */,
+				2DEFC1382531828E00FE3052 /* UITableView+Ex.swift */,
+				2DEFC143253182B500FE3052 /* ClassNameProtocol.swift */,
+				2DEFC148253182E100FE3052 /* UICollectionView+Ex.swift */,
+				2DEFC14D2531832900FE3052 /* StoryboardInstantiatable.swift */,
+				2DEFC1522531836A00FE3052 /* UIApplication+Ex.swift */,
+				2DEFC1572531839500FE3052 /* UIColor+Ex.swift */,
+				2DEFC15C253183C900FE3052 /* String+Ex.swift */,
+				2DEFC161253185C400FE3052 /* UITextField+Ex.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,23 +416,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D51D99C25317B4F0089E003 /* ValidationManager.swift in Sources */,
 				2DAA18992529003400546E9E /* ViewController.swift in Sources */,
+				2D51D99425317AC40089E003 /* UIFontManager.swift in Sources */,
 				2DAA18952529003400546E9E /* AppDelegate.swift in Sources */,
 				2DAA18D92529005000546E9E /* JSONParameterEncoder.swift in Sources */,
 				2DAA19032529069500546E9E /* Cities.swift in Sources */,
 				2DAA18DE2529005000546E9E /* HTTPMethod.swift in Sources */,
+				2DEFC1392531828E00FE3052 /* UITableView+Ex.swift in Sources */,
+				2D51D98B253177630089E003 /* KeychainService.swift in Sources */,
+				2DEFC15D253183C900FE3052 /* String+Ex.swift in Sources */,
 				2DAA18DF2529005000546E9E /* Router.swift in Sources */,
 				2DAA18E02529005000546E9E /* NetworkLogger.swift in Sources */,
 				2DAA18E12529005000546E9E /* EndPointType.swift in Sources */,
 				2DAA18FE252904BC00546E9E /* State.swift in Sources */,
 				2DAA18DA2529005000546E9E /* NetworkManager.swift in Sources */,
 				2DAA18F62529025400546E9E /* Resturnat.swift in Sources */,
+				2DEFC1582531839500FE3052 /* UIColor+Ex.swift in Sources */,
 				2DAA18D72529005000546E9E /* ParameterEncoding.swift in Sources */,
 				2DAA18972529003400546E9E /* SceneDelegate.swift in Sources */,
+				2DEFC149253182E100FE3052 /* UICollectionView+Ex.swift in Sources */,
+				2DEFC144253182B500FE3052 /* ClassNameProtocol.swift in Sources */,
+				2DEFC1532531836A00FE3052 /* UIApplication+Ex.swift in Sources */,
+				2DEFC14E2531832900FE3052 /* StoryboardInstantiatable.swift in Sources */,
 				2DAA18DD2529005000546E9E /* HTTPTask.swift in Sources */,
+				2DEFC162253185C400FE3052 /* UITextField+Ex.swift in Sources */,
 				2DAA18ED2529019200546E9E /* ResturantViewModel.swift in Sources */,
 				2DAA18D82529005000546E9E /* URLParameterEncoding.swift in Sources */,
 				2DAA18DB2529005000546E9E /* ResturantsEndPoint.swift in Sources */,
+				2DEFC1342531821B00FE3052 /* UIView+Ex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

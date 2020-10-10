@@ -7,10 +7,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController , StoryboardInstantiatable {
     private let resturantViewModel = ResturantViewModel()
     override func viewDidLoad() {
         super.viewDidLoad()
+//        if  (Validator.manager.validate(text: "test", with: [.notEmpty,.validEmail]) ?? false) == false {
+//            print("not valid")
+//            return
+//        }
         resturantViewModel.getState { [weak self] (error) in
             if error != nil {
                 print(error!)
