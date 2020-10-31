@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D101F51254DCD1000C27188 /* LocationServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D101F50254DCD1000C27188 /* LocationServiceManager.swift */; };
+		2D101F5E254DCEC500C27188 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D101F5D254DCEC500C27188 /* LoadingView.swift */; };
 		2D51D98B253177630089E003 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D51D98A253177630089E003 /* KeychainService.swift */; };
 		2D51D99425317AC40089E003 /* UIFontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D51D99325317AC40089E003 /* UIFontManager.swift */; };
 		2D51D99C25317B4F0089E003 /* ValidationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D51D99B25317B4F0089E003 /* ValidationManager.swift */; };
@@ -61,6 +63,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D101F50254DCD1000C27188 /* LocationServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationServiceManager.swift; sourceTree = "<group>"; };
+		2D101F5D254DCEC500C27188 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		2D51D98A253177630089E003 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
 		2D51D99325317AC40089E003 /* UIFontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontManager.swift; sourceTree = "<group>"; };
 		2D51D99B25317B4F0089E003 /* ValidationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationManager.swift; sourceTree = "<group>"; };
@@ -139,8 +143,10 @@
 		2D51D99225317AB50089E003 /* Utile */ = {
 			isa = PBXGroup;
 			children = (
+				2D101F50254DCD1000C27188 /* LocationServiceManager.swift */,
 				2D51D99325317AC40089E003 /* UIFontManager.swift */,
 				2D51D99B25317B4F0089E003 /* ValidationManager.swift */,
+				2D101F5D254DCEC500C27188 /* LoadingView.swift */,
 			);
 			path = Utile;
 			sourceTree = "<group>";
@@ -421,6 +427,7 @@
 				2D51D99425317AC40089E003 /* UIFontManager.swift in Sources */,
 				2DAA18952529003400546E9E /* AppDelegate.swift in Sources */,
 				2DAA18D92529005000546E9E /* JSONParameterEncoder.swift in Sources */,
+				2D101F5E254DCEC500C27188 /* LoadingView.swift in Sources */,
 				2DAA19032529069500546E9E /* Cities.swift in Sources */,
 				2DAA18DE2529005000546E9E /* HTTPMethod.swift in Sources */,
 				2DEFC1392531828E00FE3052 /* UITableView+Ex.swift in Sources */,
@@ -437,6 +444,7 @@
 				2DAA18972529003400546E9E /* SceneDelegate.swift in Sources */,
 				2DEFC149253182E100FE3052 /* UICollectionView+Ex.swift in Sources */,
 				2DEFC144253182B500FE3052 /* ClassNameProtocol.swift in Sources */,
+				2D101F51254DCD1000C27188 /* LocationServiceManager.swift in Sources */,
 				2DEFC1532531836A00FE3052 /* UIApplication+Ex.swift in Sources */,
 				2DEFC14E2531832900FE3052 /* StoryboardInstantiatable.swift in Sources */,
 				2DAA18DD2529005000546E9E /* HTTPTask.swift in Sources */,

@@ -8,14 +8,39 @@
 import UIKit
 
 class ViewController: UIViewController , StoryboardInstantiatable {
+    
+    @IBOutlet weak var reloadButton:UIButton!
     private let resturantViewModel = ResturantViewModel()
+    private let progress = ProgressHUD(title: "Loading", theme: .dark)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-//        if  (Validator.manager.validate(text: "test", with: [.notEmpty,.validEmail]) ?? false) == false {
-//            print("not valid")
-//            return
-//        }
+        [progress].forEach(view.addSubview(_:))
+        //        if  (Validator.manager.validate(text: "test", with: [.notEmpty,.validEmail]) ?? false) == false {
+        //            print("not valid")
+        //            return
+        //        }
+        getState()
+        getCities()
+        getRestaurant()
+        getRestaurantById()
+    }
+    
+    @IBAction func ReCallAPIS(_ sender: Any) {
+        getState()
+        getCities()
+        getRestaurant()
+        getRestaurantById()
+    }
+    
+    
+    //MAKE:  GETSTATE
+    private func getState()  {
+        progress.show()
         resturantViewModel.getState { [weak self] (error) in
+            defer {
+                self?.progress.hide()
+            }
             if error != nil {
                 print(error!)
             }else {
@@ -24,7 +49,16 @@ class ViewController: UIViewController , StoryboardInstantiatable {
                 print("Countries : \(self?.resturantViewModel.state?.countries ?? 0)")
             }
         }
+    }
+    
+    
+    //MAKE:  GETCITIES
+    private func getCities()  {
+        progress.show()
         resturantViewModel.getCities { [weak self] (error) in
+            defer {
+                self?.progress.hide()
+            }
             if error != nil {
                 print(error!)
             }else {
@@ -32,7 +66,15 @@ class ViewController: UIViewController , StoryboardInstantiatable {
                 print("City By Idex 0 : \(self?.resturantViewModel.getCity(with: 0) ?? "")")
             }
         }
+    }
+    
+    //MAKE:  GETRESTAURANT
+    private func getRestaurant()  {
+        progress.show()
         resturantViewModel.getRestaurant(page: 1, country: "US") { [weak self] (error) in
+            defer {
+                self?.progress.hide()
+            }
             if error != nil {
                 print(error!)
             }else {
@@ -43,7 +85,15 @@ class ViewController: UIViewController , StoryboardInstantiatable {
                 print("Resurant By Idex 0 : \(resturant))")
             }
         }
+    }
+    
+    //MAKE:  GETRESTAURANTBYID
+    private func getRestaurantById() {
+        progress.show()
         resturantViewModel.getRestaurantById(id: 116272) { [weak self] (error) in
+            defer {
+                self?.progress.hide()
+            }
             if error != nil {
                 print(error!)
             }else {
@@ -54,7 +104,6 @@ class ViewController: UIViewController , StoryboardInstantiatable {
             }
         }
     }
-    
     
 }
 
